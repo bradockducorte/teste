@@ -1,0 +1,269 @@
+
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1440px) { 
+	.container{
+		max-width: 1320px;
+	}
+}
+
+@media (min-width: 1200px) and (max-width: 1439.98px) { 
+	html{
+		font-size: 55%;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+	html{
+		font-size: 46%;
+	}
+}
+
+
+/*Large devices (desktops, 992px and up)*/
+@media (max-width: 991.98px) {
+	html{
+		font-size: 58%;
+	}
+	.search_wrap{
+		width: 100%;
+	}
+	.hamburger-menu{
+		display: block;
+	}
+	#menu{
+		position: fixed;
+		z-index: -1;
+		top: 7rem;
+		left: -100%;
+		width: 100%;
+		height: calc(100% - 7rem);
+		background-color: #fff;
+		-webkit-transition: 0.5s;
+		-o-transition: 0.5s;
+		transition: 0.5s;
+		padding-top: 3rem;
+		padding-bottom: 3rem;
+		overflow: auto;
+	}
+	#menu.current{
+		left: 0;
+	}
+	.menu_wrapper{
+		background: #fff;
+	    width: 100%;
+	    height: 100%;
+	    position: fixed;
+	    left: -100%;
+	    top: 0;
+	    z-index: -1;
+	    -webkit-transition: 0.5s;
+	    -o-transition: 0.5s;
+	    transition: 0.5s;
+	}
+	.menu_wrapper.current{
+		left: 0;
+	}
+	#menu li{
+		display: block;
+		text-align: center;
+		margin-top: 1rem;
+	}
+	#menu li:last-child{
+		padding-right: 1.5rem;
+	}
+
+	#menu li a{
+		display: inline-block;
+	}
+	.title_2{
+		max-width: 100%;
+	}
+
+	.grow_wrapper{
+		text-align: center;
+	}
+	.grow_wrapper .technics li{
+		display: inline-block;
+		text-align: left;
+	}
+	.mt_md_30{
+		margin-top: 3rem;
+	}
+	.testi_carousel .item .single_client{
+		padding: 3rem;
+	}
+	.landing_wrapper .heading {
+		font-size: 5rem;
+	}
+	.details_box{
+		margin-bottom: 4rem;
+	}
+}
+
+/*Medium devices (tablets, 767px and down)*/
+@media (max-width: 767.98px) {
+	html{
+		font-size: 50%;
+	}
+	.banner_button_wrapper{
+		text-align: left;
+		margin-top: 3rem;
+	}
+	footer{
+		text-align: center;
+	}
+}
+
+/*Small devices (landscape phones, 575px and down)*/
+@media (max-width: 575.98px) {
+	html{
+		font-size: 2.45vw;
+	}
+	.container{
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+	.search_wrap{
+		padding: 2rem;
+	}
+	.search_wrap form{
+		display: block;
+	}
+	.search_wrap .button{
+		width: 100%;
+		margin-top: 1.5rem;
+	}
+	.landing_wrapper .heading{
+		font-size: 3.4rem;
+	}
+	.landing_wrapper .sub_heading {
+		font-size: 1.6rem;
+		line-height: 1.35;
+	}
+	.search_wrap h4 {
+		font-size: 2.1rem;
+	}
+	body{
+		font-size: 1.6rem;
+	}
+	.title_1 {
+		font-size: 3rem;
+	}
+	.about_img_wrapper::before {
+		border-top: 12rem solid var(--blue);
+		border-right: 14rem solid transparent;
+	}
+	.about_img_wrapper::after {
+		border-bottom: 12rem solid var(--blue);
+		border-left: 14rem solid transparent;
+	}
+	.section_padd {
+		padding: 5rem 0;
+	}
+	.ask_wrapper{
+		padding-top: 0;
+	}
+	.faq_img {
+		height: 40rem;
+	}
+	.banner_wrapper,
+	.banner_button_wrapper{
+		text-align: center;
+	}
+	.landing_wrapper {
+		padding-top: 14rem;
+		text-align: center;
+	}
+	.search_wrap h4{
+		text-align: center;
+	}
+	.about_wrapper{
+		text-align: center;
+	}
+	.ask_wrapper .text-left{
+		text-align: center !important;
+	}
+	.ask_wrapper .button {
+		padding-left: 1.5rem;
+	}
+	.ask_content {
+		padding: 2rem 0rem 0;
+	}
+	.accordion .button .fa-check {
+		right: 1rem;
+		top: 1.3rem;
+	}
+	.inner_content h1 {
+		font-size: 4rem;
+	}
+	.inner_wrapper {
+		padding-top: 20rem;
+		padding-bottom: 3rem;
+	}
+	.tracking_item{
+		display: block;
+	}
+	.tracking_icon {
+		height: 7rem;
+		width: 7rem;
+		margin-bottom: 1.5rem;
+	}
+	.tracking_item h4 {
+		font-size: 2rem;
+	}
+}
+/* Alterando o título da seção de pesquisa */
+.search_form h4 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #f90; /* Cor laranja */
+    text-transform: capitalize;
+    margin-bottom: 1.5rem;
+}
+
+/* Estilizando a caixa de pesquisa */
+.search_wrap {
+    width: 100%;
+    max-width: 500px; /* Ajuste para limitar o tamanho da pesquisa */
+    background-color: #fff;
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 2rem;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* Estilizando o campo de input */
+.search_wrap .input-field input {
+    width: 80%; /* Para que o botão e o campo se alinhem */
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    border: 1px solid #e6e6e6;
+    font-size: 1.6rem;
+    color: #333;
+    margin-right: 10px; /* Espaço entre o input e o botão */
+    box-sizing: border-box;
+}
+
+/* Estilizando o botão de pesquisa */
+.search_wrap .input-field button {
+    background-color: #f90; /* Cor de fundo laranja */
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.6rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search_wrap .input-field button i {
+    color: #fff; /* Ícone de pesquisa branco */
+    font-size: 1.8rem;
+}
+
+.search_wrap .input-field button:hover {
+    background-color: #e68900; /* Laranja mais escuro ao passar o mouse */
+}

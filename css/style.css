@@ -1,0 +1,54 @@
+/* Alterando o título da seção de pesquisa */
+.search_form h4 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #f90; /* Cor laranja */
+    text-transform: capitalize;
+    margin-bottom: 1.5rem;
+}
+
+/* Estilizando a caixa de pesquisa */
+.search_wrap {
+    width: 100%;
+    max-width: 500px; /* Ajuste para limitar o tamanho da pesquisa */
+    background: linear-gradient(to right, #0f172a, #1e293b);
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 2rem;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* Estilizando o campo de input */
+.search_wrap .input-field input {
+    width: 80%; /* Para que o botão e o campo se alinhem */
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    border: 1px solid #e6e6e6;
+    font-size: 1.6rem;
+    color: #333;
+    margin-right: 10px; /* Espaço entre o input e o botão */
+    box-sizing: border-box;
+}
+
+/* Estilizando o botão de pesquisa */
+.search_wrap .input-field button {
+    background-color: #f90; /* Cor de fundo laranja */
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.6rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search_wrap .input-field button i {
+    color: #fff; /* Ícone de pesquisa branco */
+    font-size: 1.8rem;
+}
+
+.search_wrap .input-field button:hover {
+    background-color: #e68900; /* Laranja mais escuro ao passar o mouse */
+}

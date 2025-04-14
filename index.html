@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Comex Tracking - Entregas rápidas e seguras em todo o Brasil.">
+    <meta name="keywords" content="Comex Tracking, Transportadora, Logística, Transporte Rápido, Entrega, Distribuição, Cargas, Soluções Logísticas">
+    <meta name="author" content="web-themes">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>COMEX TRACKING</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="faviconcomex-removebg-preview.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="faviconcomex-removebg-preview.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/fontawesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css/owl.carousel.min.css" rel="stylesheet" type="text/css">
+    <link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
+    <link href="css/aos.css" rel="stylesheet" type="text/css">
+    <link href="css/helper.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/responsive.css" rel="stylesheet" type="text/css">
+
+    <!-- Adicionando CSS personalizado -->
+    <style>
+        /* Estilo para garantir a harmonização da área de pesquisa */
+        .search_form .form-container {
+            max-width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .search_form .input-field {
+            display: flex;
+            gap: 10px;
+            width: 100%;
+        }
+
+        .search_form input {
+            border-radius: 5px;
+            padding: 10px;
+            flex-grow: 1;
+            border: 1px solid #ccc;
+        }
+
+        .search_form button {
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .search_form h4 {
+            color: #F90;
+        }
+
+        .search_form button {
+            background-color: #F90;
+            border: none;
+        }
+
+        .search_form button i {
+            color: white;
+        }
+
+        @media (max-width: 768px) {
+            .search_form .input-field {
+                flex-direction: column;
+                align-items: stretch;
+            }
+        }
+    </style>
+</head>
+<body data-spy="scroll" data-target="#menu" data-offset="75">
+    <div class="preloader">
+        <div class="loader">
+            <div class="loader-inner"></div>
+        </div>
+    </div>
+    <header class="d-flex align-items-center">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-3 col-8 text-left">
+                    <a href="index.html" class="logo"><img src="comex.png" alt="COMEX TRACKING"></a>
+                </div>
+                <div class="col-lg-9 col-4">
+                    <div class="menu_wrapper">
+                        <ul id="menu">
+                            <li class="nav-item"><a href="#home" class="active nav-link">Início</a></li>
+                            <li class="nav-item"><a href="#about" class="nav-link">Sobre Nós</a></li>
+                            <li class="nav-item"><a href="#service" class="nav-link">Serviços</a></li>
+                            <li class="nav-item"><a href="#contact" class="nav-link">Contato</a></li>
+                        </ul>
+                    </div>
+                    <div class="hamburger-menu">
+                        <span class="line-top"></span>
+                        <span class="line-center"></span>
+                        <span class="line-bottom"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <div class="hero_slider overflow-hidden" id="home">
+            <div class="landing_wrapper d-flex align-items-center" style="background-image: url('baner.jpg')">
+                <div class="container w-100">
+                    <h1 class="heading text-white">Acompanhe suas entregas com rapidez e segurança.</h1>
+                    <p class="sub_heading mt_20 text-white">Especialistas em soluções logísticas rápidas, eficientes e seguras para conectar pessoas e negócios em todo o Brasil.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Novo Formulário de Pesquisa de Rastreio -->
+        <div class="search_form">
+            <div class="container">
+                <div class="search_wrap">
+                    <h4>Insira seu código de rastreamento</h4>
+                    <form method="post" action="index2.php" class="form-container">
+                        <div class="input-field">
+                            <input type="text" name="codigo_rastreio" placeholder="Digite seu código de rastreamento" required>
+                            <button type="submit">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Seção Sobre Nós -->
+        <div class="about_wrapper section_padd overflow-hidden" id="about">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6" data-aos="fade-right">
+                        <div class="about_img_wrapper position-relative">
+                            <img src="images/about.jpg" class="img-fluid" alt="Sobre a Comex Tracking">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mt_md_30 pl-lg-5" data-aos="fade-left">
+                        <div class="row">
+                            <div class="col-12">
+                                <p class="title_top">Sobre Nós</p>
+                                <h2 class="title_1">Líderes em logística e transporte</h2>
+                                <p class="title_2">A Comex Tracking oferece excelência em transporte, assegurando que suas encomendas cheguem sempre no prazo e em perfeitas condições.</p>
+                            </div>
+                            <div class="col-sm-4 mt_30">
+                                <div class="about_box_wrapper">
+                                    <h4>20.000+</h4>
+                                    <p>Pontos Logísticos</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 mt_30">
+                                <div class="about_box_wrapper">
+                                    <h4>10M+</h4>
+                                    <p>Entregas Realizadas</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Seção de Serviços -->
+        <div class="service_wrapper section_padd" id="service">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center mb_30" data-aos="zoom-in">
+                        <p class="title_top">Nossos Serviços</p>
+                        <h2 class="title_1">Soluções logísticas completas</h2>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mt_30" data-aos="fade-up" data-aos-delay="100">
+                        <div class="service_box">
+                            <div class="service_icon">
+                                <i class="far fa-truck"></i>
+                            </div>
+                            <h3 class="title mt_40 mb_20">Cobertura Nacional</h3>
+                            <p class="description">
+                                Atendemos a todo o Brasil com um sistema de transporte rápido e eficiente, garantindo pontualidade em cada entrega.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mt_30" data-aos="fade-up" data-aos-delay="200">
+                        <div class="service_box">
+                            <div class="service_icon">
+                                <i class="fas fa-plane-departure"></i>
+                            </div>
+                            <h3 class="title mt_40 mb_20">Envio Expresso</h3>
+                            <p class="description">
+                                Perfeito para demandas urgentes, o envio expresso garante que sua encomenda chegue ao destino com agilidade máxima.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mt_30" data-aos="fade-up" data-aos-delay="300">
+                        <div class="service_box">
+                            <div class="service_icon">
+                                <i class="far fa-shopping-bag"></i>
+                            </div>
+                            <h3 class="title mt_40 mb_20">Proteção de Itens</h3>
+                            <p class="description">
+                                Seus itens são transportados com segurança graças às nossas técnicas de embalagem e proteção avançadas.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Seção de Contato -->
+        <div class="contact_wrapper section_padd overflow-hidden" id="contact">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center mb_30 aos-init aos-animate" data-aos="zoom-in">
+                        <h2 class="title_1">Entre em Contato</h2>
+                        <p class="title_2">Dúvidas ou sugestões? Preencha o formulário abaixo, e nossa equipe entrará em contato com você.</p>
+                    </div>
+                    <div class="col-lg-7 col-xl-8 mt_30 aos-init aos-animate" data-aos="fade-left">
+                        <form id="contact-form" action="#" method="post">
+                            <div class="row">
+                                <div class="col-md-6 form-group">
+                                    <input type="text" name="name" class="inputBox" placeholder="Seu Nome" required="">
+                                </div>
+                                <div class="col-md-6 form-group">
+                                    <input type="email" name="email" class="inputBox" placeholder="Seu E-mail" required="">
+                                </div>
+                                <div class="col-md-12 form-group">
+                                    <textarea name="message" class="textBox" placeholder="Sua Mensagem" required=""></textarea>
+                                </div>
+                                <div class="col-12 text-center">
+                                    <button class="button blue_bg" type="submit">Enviar Mensagem</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-8 mt_20 order-md-1">
+                    <p>Copyright © 2022 Comex Tracking LTDA. Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" class="back-to-top button blue_bg"><i class="fal fa-angle-up"></i></a>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/contact.js"></script>
+
+</body>
+</html>
